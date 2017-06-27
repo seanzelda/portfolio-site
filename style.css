@@ -1,29 +1,34 @@
+body {
+  background-color: #3F4244;
+}
+
+.superheader .superheader-content img {
+  height: 100px;
+  width: 200px;
+  border: 5px solid #efefef;
+}
 .superheader {
-
   display: flex;
-
   width: 100%;
-  background-color: #00274c;
-
+  background-color: #3E576B;
+  color: #efefef;
   text-align: center;
   padding-top: 4px;
-
   padding-bottom: 4px;
   justify-content: center;
 }
-
 .superheader-content {
-
   font-family: arial;
+  font-size: 50px;
   width: 70%;
   height: 50px;
-  background-color: #ffcb05;
+  background-color: #3E576B;
   margin: 4px;
 }
 .container {
   font-family: arial;
-  background-color: white;
-  color: #00274c;
+  background-color: #efefef;
+  color: #efefef;
   display: flex;
   flex-direction: row;
   width: 70%;
@@ -32,7 +37,7 @@
   position: relative;
 }
 .column-one {
-  background-color: #00274c;
+  background-color: #efefef;
   color: #ffcb05;
   display: flex;
   flex: 1.75;
@@ -40,39 +45,41 @@
   margin: 4px;
 }
 .header {
-  background-color: #ffcb05;
+  background-color: #3E576B;
   font-size: 72px;
-  color: black;
+  color: #efefef;
   flex: .25;
   margin: 4px;
   text-align: center;
 }
 .body {
-  background-color: #ffcb05;
+  background-color: #3E576B;
+  color: #efefef;
   margin: 4px;
   flex: .75;
 }
 .column-two {
-  background-color: #00274c;
+  background-color: #3E576B;
   flex: .5;
   display: flex;
   margin: 4px;
   flex-direction: column;
 }
 .row-one {
-  background-color: #ffcb05;
+  background-color: #3E576B;
+  color: #3E576B;
   flex: 1;
-  margin: 4px;
+  margin: 5px;
 }
 .row-two {
-  background-color: #ffcb05;
+  background-color: #3E576B;
   flex: 1;
-  margin: 4px;
+  margin: 5px;
 }
 .floating-action-button {
   border-radius: 40px;
   border: 3px solid #00274c;
-  background-color: #ffcb05;
+  background-color: #3E576B;
   height: 20px;
   width: 60px;
   position: absolute;
