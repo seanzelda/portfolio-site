@@ -9,7 +9,7 @@ h1 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	line-height: 14px;
 }
 p {
   font-family: "Optima", sans-serif;
@@ -17,12 +17,26 @@ p {
   font-size: 14px;
 }
 .title {
+  font-family: "Coda Caption";
   display: flex;
   position: absolute;
   color: #F2C78C;
-  font-size: 25px;
+  font-size: 26px;
   margin-left: 5px;
-  text-shadow: 1px 1px black;
+  margin-top: 2px;
+  text-shadow: 1px 1px #3C1518;
+}
+.navigation {
+  font-family: "Copse", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  top: 205px;
+  width: 370px;
+  padding: 13px;
+  font-size: 16px;
+  text-align: right;
 }
 .superheader-content img {
   height: 245px;
@@ -42,10 +56,6 @@ p {
   width: 800px;
   height: 50px;
   margin: 4px;
-  display: flex;
-}
-.photo-text {
-  font-family: "Optima", sans-serif;
   display: flex;
 }
 .container {
@@ -98,12 +108,18 @@ p {
   padding: 5px;
   text-align: center;
 }
+.see-more {
+  position: relative;
+  text-align: right;
+  padding: 2px;
+  font-size: 12px;
+}
 .row-two {
   background-color: #69140E;
-  flex: 1;
   margin: 2px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
+  flex: 1;
 }
 .floating-action-button {
   font-family: "Century Gothic", sans-serif;
